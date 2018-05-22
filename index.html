@@ -11,15 +11,19 @@
     <meta name="description" content="Responsive HTML5 Website Landing Page for Developers">
     <meta name="author" content="Xiaoying Riley at 3rd Wave Media">    
     <link rel="shortcut icon" href="favicon.ico">  
-    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'> 
+<!--     <link href='http://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic' rel='stylesheet' type='text/css'> -->
+<!--     <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>  -->
     <!-- Global CSS -->
+    <!-- Plugins CSS -->
     <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">   
+<!--     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css"> -->
     <!-- Plugins CSS -->
     <link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.css">
     
     <!-- github acitivity css -->
     <link rel="stylesheet" href="assets/plugins/github-activity/src/github-activity.css">
+    <link rel="stylesheet" href="github-activity-0.1.5.min.css">
+<!--     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css"> -->
     <link rel="stylesheet" href="assets/plugins/others/octicons.min.css">
     
     <!-- Theme CSS -->  
@@ -30,9 +34,16 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
     
+    <style type="text/css">
+			.LI-badge-container.horizontal.dark {
+			width: 100%;
+		}
+   </style>
+    
+    
 </head> 
 
-<body>
+<body onload="">
     <!-- ******HEADER****** --> 
     <header class="header">
         <div class="container">                       
@@ -40,7 +51,7 @@
     width: 164px;"/>
             <div class="profile-content pull-left">
                 <h1 class="name">Ashutosh Dubey</h1>
-                <h2 class="desc">Full Stack Developer</h2>   
+<!--                 <h2 class="desc">Full Stack Developer</h2>    -->
                 <ul class="social list-inline">
                     <li>
 						<a href="https://www.linkedin.com/in/kumar-ashutosh-dubey/" target="_blank">
@@ -52,9 +63,9 @@
 					</li>                  
                 </ul> 
             </div><!--//profile-->
-            <a class="btn btn-cta-primary pull-right" href="mailto:kumar.ashutosh.dubey@outlook.com" target="_blank">
+            <a class="btn btn-cta-primary pull-right" href="mailto:ashutosh049@outlook.com" target="_blank">
 				<i class="fa fa-paper-plane"></i> Contact Me
-			</a>            
+			</a>
 			<!-- <a class="btn btn-cta-primary btn-download" href="assets/resume/AshutoshDubeyProfile.pdf" download="kumar's Resume" target="_blank"><i class="fa fa-download"></i> Download Resume (Short)</a>			 -->
         </div><!--//container-->
     </header><!--//header-->
@@ -62,44 +73,74 @@
     <div class="container sections-wrapper">
         <div class="row">
             <div class="primary col-md-8 col-sm-12 col-xs-12">
-                
 				<section class="about section">
-                    <div class="section-inner">
-                        <h2 class="heading"><i class="fa fa-user"></i> Who am I</h2>
-                        <div class="content">
-                            <p>While thriving in well-designed, well-architectured and
-						technology-rich software, I consider myself as a
-						polyglot/language-agnostic developer since I can easily adapt to
-						any programming language or paradigm.
-						</p>    
-         
-						<p>Although I’m most proficient in java, web development and high-level
-						software architectures, I’ve had substantial experience in 
-						application development, POS, Payment and Retail Domain and I’m
-						also very interested in functional programming. I do have a demonstrated history of working in the
-						information technology and services industry. Skilled in Java, Spring ,
-						Spring security, Apache Ant, J2EE Web Services, SQL, JavaSE, and
-						Maven....</p>
-                         
-                        </div><!--//content-->
-                    </div><!--//section-inner-->                 
-                </section><!--//section-->
+                    <div class="section-inner" style="background:none;">
+						<div class="content text-muted">
+							<p>
+								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+								<em>While thriving in
+									well-designed, well-architectured and technology-rich software,
+									I consider myself as a polyglot/language-agnostic developer and
+									I wish to code in different programming language and paradigm.</em>
+								
+
+							</p>
+
+							<p>
+								<em>Although I’m most proficient in java, web development
+									and high-level software architectures, I’ve had substantial
+									experience in application development, POS, Payment and Retail
+									Domain and I’m also interested in functional programming. I do
+									have a demonstrated history of working in the information
+									technology and services industry. </em>
+							</p>
+							<p>
+								<em>Skilled in Java, Design Patterns, Multithreading, Spring, Spring security, J2EE, Containers, MVC,  Web
+									Services, JMS, Message brokers, Socket programming, Build
+									tools, SQL, Agile, Scrum</em>
+							</p>
+							<p>
+								
+							</p>
+						</div>
+					</div>
+                </section>
+				
+				<hr/>
 				
 				<section class="experience section">
-                    <div class="section-inner">
-                        <h2 class="heading"><i class="fa fa-briefcase"></i> Work Experience</h2>
+                    <div class="section-inner" style="background:none;">
+<!--                         <hr style="margin-top:40px;margin-bottom:20px;"/> -->
+						<h3 class="heading"><i class="fa fa-briefcase"></i> Work Experience</h3>
+<!--                         <br/> -->
                         <div class="content">
                             <div class="item">
-                                <h3 class="title">Software Engineer (Server Team)<span class="place">
-								<span class="pull-right"><a href="https://www.worldpay.com/" target="_blank">
-									<img src="assets/images/worldpay-logo.svg" style="height:20px;">
-								</a></span>
+                                <h4 class="title">Software Engineer<span class="place">
+								<span class="pull-right"><a
+											href="https://www.worldpay.com/" target="_blank"> <img
+												src="assets/images/worldpay-logo.svg" style="height: 20px;">
+										</a>
+								</span> 
 								</br>								
-								<span class="place pull-left"> <i class="fa fa-thumb-tack" aria-hidden="true"> </i> Indore</span>'
-								<span class="year pull-right" style="font-size: 15px;">July 2017 - Present</span>
-								</h3>
-                               <p>Worldpay is a global leader in payments processing technology and solutions for our merchant customers. We operate reliable and secure proprietary technology platforms that enable merchants to accept a vast array of payment types, across multiple channels, anywhere in the world.</p>
-							   <p>Worldpay has been a pioneer in card payments, multi-currency processing, online payments and contactless, and is aiming to lead the way in expanding global reach, data analytics and optimisation, and the emerging field of integrated payments.</p>
+								<span class="place pull-left">  <em>Worldpay, Inc</em></span>
+								<br/><span class="year pull-left" style="font-size: 15px;">  July 2017 - Present</span>
+								<span class="year pull-right">  Indore (Madhya Pradesh) <i class="fa fa-thumb-tack fa-lg" aria-hidden="true"> </i></span>
+								</h4>
+								<br/>
+								<br/>
+								<p>Worldpay is a global leader in payments processing
+									technology and solutions for our merchant customers. We operate
+									reliable and secure proprietary technology platforms that
+									enable merchants to accept a vast array of payment types,
+									across multiple channels, anywhere in the world.</p>
+								<p>Worldpay has been a pioneer in card payments,
+									multi-currency processing, online payments and contactless, and
+									is aiming to lead the way in expanding global reach, data
+									analytics and optimisation, and the emerging field of
+									integrated payments.</p>
 								<p>
 									<h5 style="text-indent:10px;">Job Duties</h5>
 									<ul>
@@ -116,11 +157,15 @@
                                 <h2 class="title">Assistant System Analyst<span class="place">
 								<span class="pull-right"><a href="https://www.skillnetinc.com/" target="_blank">
 									<img src="assets/images/skillnet-logo.jpg" style="height:20px;">
-								</a></span>
+								</a>
+								</span>
 								</br>								
-								<span class="place pull-left"> <i class="fa fa-thumb-tack" aria-hidden="true"> </i> Indore</span>'
-								<span class="year pull-right" style="font-size: 15px;"> Jan 2015 - July 2017</span>
-								</h2>
+								<span class="place pull-left">  <em>Skillnet Solutions</em></span>
+								<br/><span class="year pull-left" style="font-size: 15px;">  Jan 2015 - July 2017 <small><strong>(2.7 Years)</strong></small></span>
+								<span class="year pull-right">  Indore (Madhya Pradesh) <i class="fa fa-thumb-tack fa-lg" aria-hidden="true"> </i></span>
+								</h4>
+								<br/>
+								<br/>
                                 <p>SkillNet Solutions, Inc. provides consulting and technology services for retail, government, and telecom organizations in the United States and internationally.</p>
 								<p>It provides services in the domains of multi-channel integration, eCommerce and catalog, store operations, CRM, business intelligence, service oriented architecture, integration, merchandising, and supply chain management</p>
 								<p>
@@ -128,114 +173,345 @@
 									<ul>
 										<li style="margin-bottom: 3px;">Gather, analyze and document user/business and technical requirements. Finalize and document functional requirements.</li>
 										<li style="margin-bottom: 3px;">Convert functional requirements into technical specifications.</li>
-										<li style="margin-bottom: 3px;">Analyze, design, develop, code, customize, implement, integrate and maintain computer software applications using various development tools and technologies like <mark>Oracle POS (xstore)</mark>, <mark>Oracle Back Office</mark>, <mark>Oracle Central Office</mark>, <mark>Oracle Store Inventory Management</mark>, <mark>SkillNet Store Integration Hub</mark>, etc. and/or related tools, as per client and/or project requirements for US and/or international clients.</li>
+										<li style="margin-bottom: 3px;">Analyze, design, develop, code, customize, implement, integrate and maintain computer software applications using various development tools and technologies like <abbr title="Oracle POS (xstore)">Oracle POS (xstore)</abbr>, <abbr title="Xstore Back Office">Oracle Back Office</abbr>, 
+										<abbr title="Oracle Central Office">Oracle Central Office</abbr>, <abbr title="Store Management">Oracle Store Inventory Management</abbr>, <abbr title="storehub">SkillNet Store Integration Hub</abbr>, etc. and/or related tools, as per client and/or project requirements for US and/or international clients.</li>
 										<li style="margin-bottom: 3px;">Test, debug, enhance and document applications as required.</li>
 										<li style="margin-bottom: 3px;">Deploy applications.</li>
 										<li style="margin-bottom: 3px;">Provide ongoing post production support.</li>
                             
 									</ul> 
 								</p>
-                            </div><!--//item-->
+                            </div>
                             
-                        </div><!--//content-->  
-                    </div><!--//section-inner-->                 
-                </section><!--//section-->
+                        </div> 
+                    </div>                 
+                </section>
+    
+				<hr />
     
                <section class="latest section">
-                    <div class="section-inner">
+                    <div class="section-inner" style="background:none;">
                         <h2 class="heading">
 							<i class="fa fa-folder-open" aria-hidden="true"></i> Personal Projects And Work Samples
 						</h2>
                         <div class="content">    
                             
                             <div class="item row">
-                                <div class="desc col-md-8 col-sm-8 col-xs-12">
-                                    <h3 class="title"><a href="" target="_blank">Codespot</a>
-									</h3>
-                                    <p>Real-Time Private and feed Messaging Using STOMP Over WebSockets on Spring Security MVC.
-									</p>
-                                    <p>
-										<a class="more-link" href="https://github.com/ashutosh049/codespot.git" target="_blank">
-											<i class="fa fa-external-link"></i> Find out more
-										</a>
-									</p>
+                                <div class="desc col-md-12 col-sm-12 col-xs-12">
+                                    <h3 class="title"><a href="" target="_blank">Codespot</a></h3>
+                                 	<div class="col-md-8 pull-left">
+	                                    <p>
+											<a class="more-link" href="https://github.com/ashutosh049/codespot.git" target="_blank">
+												<i class="fa fa-external-link"></i> https://github.com/ashutosh049/codespot.git
+											</a>
+										</p>
+									</div>
+                                 	<div class="col-md-8 pull-left">
+										<p>Real-Time Private and feed Messaging Using STOMP Over
+											WebSockets on Spring Security MVC. We will improve or add new
+											features to this template based on users' feedback so follow
+											us on twitter to get notified when a new version is out</p>
+										<p>Real-Time Private and feed Messaging Using STOMP Over
+											WebSocketsed on users' feedback so follow
+											us on twitter to get notified when a new version is out</p>
+										<p>Real-Time Private and feed Messaging Using STOMP Over
+											WebSockets on Spring Security MVC. We will improve or add new
+											features to this template based on users' feedback so follow
+											us on twitter to get notified when a new version is out</p>
+									</div>
+									<div class="col-md-4 pull-right">
+										<ul class="tag-list" style="padding: 0;">
+											<li style="list-style:none; float:right;margin-left: 1px;margin-right: 1px;">
+												<span class="label label-default" style="border-radius:20;font-weight: normal;" >
+													Java
+												</span>
+											</li>
+											<li style="list-style:none; float:right;margin-left: 1px;margin-right: 1px;">
+												<span class="label label-default" style="border-radius:20;font-weight: normal;" >
+													Spring MVC
+												</span>
+											</li>
+											<li style="list-style:none; float:right;margin-left: 1px;margin-right: 1px;">
+												<span class="label label-default" style="border-radius:20;font-weight: normal;" >
+													Spring Security
+												</span>
+											</li>
+											<li style="list-style:none; float:right;margin-left: 1px;margin-right: 1px;">
+												<span class="label label-default" style="border-radius:20;font-weight: normal;" >
+													Active MQ
+												</span>
+											</li>
+											<li style="list-style:none; float:right;margin-left: 1px;margin-right: 1px;">
+												<span class="label label-default" style="border-radius:20;font-weight: normal;" >
+													MySql
+												</span>
+											</li>
+											<li style="list-style:none; float:right;margin-left: 1px;margin-right: 1px;">
+												<span class="label label-default" style="border-radius:20;font-weight: normal;" >
+													Hibernate
+												</span>
+											</li>
+											<li style="list-style:none; float:right;margin-left: 1px;margin-right: 1px;">
+												<span class="label label-default" style="border-radius:20;font-weight: normal;" >
+													Stomp & sock
+												</span>
+											</li>
+											<li style="list-style:none; float:right;margin-left: 1px;margin-right: 1px;">
+												<span class="label label-default" style="border-radius:20;font-weight: normal;">
+													Active MQ
+												</span>
+											</li>
+										</ul>
+									</div>
+									
+                                 
+								
+								<!-- <div class="text-center m-t-md">
+									<a href="#" class="btn btn-xs btn-primary">Add files</a> <a
+										href="#" class="btn btn-xs btn-primary">Report contact</a>
+
+								</div> -->
                                 </div>                          
                             </div>
+							
 							<div class="item row">
-                                <div class="desc col-md-8 col-sm-8 col-xs-12">
-                                    <h3 class="title">
-										<a href="" target="_blank">Bumbelbee</a>
-									</h3>
-                                    <p>
-										Bug reporting tool - Application for tracking and managing bugs.
-									</p>
-                                    <p>
-										<a class="more-link" href="https://github.com/ashutosh049/bumbelbee.git" target="_blank">
-											<i class="fa fa-external-link"></i> Find out more
-										</a>
-									</p>
-                                </div>                        
+                                <div class="desc col-md-12 col-sm-12 col-xs-12">
+                                    <h3 class="title"><a href="" target="_blank">Bumbelbee</a></h3>
+                                 	<div class="col-md-8 pull-left">
+	                                    <p>
+											<a class="more-link" href="https://github.com/ashutosh049/codespot.git" target="_blank">
+												<i class="fa fa-external-link"></i> https://github.com/ashutosh049/codespot.git
+											</a>
+										</p>
+									</div>
+                                 	<div class="col-md-8 pull-left">
+										<p>A bug-reporting tool made as spring mvc web
+											appplication . Any user can register and can attemp to lock a
+											bug against provided user emails thereby sending emails to
+											the them</p>
+									</div>
+									<div class="col-md-4 pull-right">
+										<ul class="tag-list" style="padding: 0;">
+											<li style="list-style:none; float:right;margin-left: 1px;margin-right: 1px;">
+												<span class="label label-default" style="border-radius:20;font-weight: normal;">
+													Java
+												</span>
+											</li>
+											<li style="list-style:none; float:right;margin-left: 1px;margin-right: 1px;">
+												<span class="label label-default" style="border-radius:20;font-weight: normal;">
+													Spring MVC
+												</span>
+											</li>
+											<li style="list-style:none; float:right;margin-left: 1px;margin-right: 1px;">
+												<span class="label label-default" style="border-radius:20;font-weight: normal;">
+													Spring Security
+												</span>
+											</li>
+											<li style="list-style:none; float:right;margin-left: 1px;margin-right: 1px;">
+												<span class="label label-default" style="border-radius:20;font-weight: normal;">
+													Maven
+												</span>
+											</li>
+											<li style="list-style:none; float:right;margin-left: 1px;margin-right: 1px;">
+												<span class="label label-default" style="border-radius:20;font-weight: normal;">
+													MySql
+												</span>
+											</li>
+											<li style="list-style:none; float:right;margin-left: 1px;margin-right: 1px;">
+												<span class="label label-default" style="border-radius:20;font-weight: normal;">
+													Spring Data JPA
+												</span>
+											</li>
+										</ul>
+									</div>
+									
+                                 
+								
+								<!-- <div class="text-center m-t-md">
+									<a href="#" class="btn btn-xs btn-primary">Add files</a> <a
+										href="#" class="btn btn-xs btn-primary">Report contact</a>
+
+								</div> -->
+                                </div>                          
                             </div>
+							
 							<div class="item row">
-                                <div class="desc col-md-8 col-sm-8 col-xs-12">
-                                    <h3 class="title">
-										<a href="" target="_blank">eShop</a>
-									</h3>
-                                    <p>
-										Ecommerce Web Application.
-									</p>
-                                    <p>
-										<a class="more-link" href="https://github.com/ashutosh049/eShop.git" target="_blank">
-											<i class="fa fa-external-link"></i> Find out more
-										</a>
-									</p>
-                                </div>                        
+                                <div class="desc col-md-12 col-sm-12 col-xs-12">
+                                    <h3 class="title">WRAPit-  eSHOP</h3>
+                                 	<div class="col-md-8 pull-left">
+	                                    <p>
+											<a class="more-link" href="https://github.com/ashutosh049/eSHOP.git" target="_blank">
+												<i class="fa fa-external-link"></i> https://github.com/ashutosh049/eSHOP.git
+											</a>
+										</p>
+									</div>
+                                 	<div class="col-md-8 pull-left">
+	                                 	<p>WRAPit is an e-commerce web site featuring spring mvc application</p>
+										<p>A language-independent tutorial and question and answer
+											hub for programmers and code seekers.It tries to help
+											developers and students by providing useful code pieces and
+											selected articles. One can publish their own findings ,tips &
+											tricks, articles and can ask questions where others reply
+											their useful findings by commenting over the same</p>
+									</div>
+									<div class="col-md-4 pull-right">
+										<ul class="tag-list" style="padding: 0;">
+											<li style="list-style:none; float:right;margin-left: 1px;margin-right: 1px;">
+												<span class="label label-default" style="border-radius:20;font-weight: normal;">
+													Spring MVC
+												</span>
+											</li>
+											<li style="list-style:none; float:right;margin-left: 1px;margin-right: 1px;">
+												<span class="label label-default" style="border-radius:20;font-weight: normal;">
+													Java
+												</span>
+											</li>
+											<li style="list-style:none; float:right;margin-left: 1px;margin-right: 1px;">
+												<span class="label label-default" style="border-radius:20;font-weight: normal;">
+													Spring Security
+												</span>
+											</li>
+											<li style="list-style:none; float:right;margin-left: 1px;margin-right: 1px;">
+												<span class="label label-default" style="border-radius:20;font-weight: normal;">
+													Spring JDBC, MySql
+												</span>
+											</li>
+										</ul>
+									</div>
+									
+                                 
+								
+								<!-- <div class="text-center m-t-md">
+									<a href="#" class="btn btn-xs btn-primary">Add files</a> <a
+										href="#" class="btn btn-xs btn-primary">Report contact</a>
+
+								</div> -->
+                                </div>                          
                             </div>
+                            
 							<div class="item row">
-                                <div class="desc col-md-8 col-sm-8 col-xs-12">
-                                    <h3 class="title">
-										<a href="" target="_blank">Jpos - payment simulator</a>
-									</h3>
-                                    <p>
-										A jpos 8583 request/response simulator for sending and absorbing payment EMV cards. Implemented using webservices.
-									</p>
-                                    <p>
-										<a class="more-link" href="https://github.com/ashutosh049/jpos-2.0.10-pack-unoack.git" target="_blank">
-											<i class="fa fa-external-link"></i> Find out more
-										</a>
-									</p>
-                                </div>                        
+                                <div class="desc col-md-12 col-sm-12 col-xs-12">
+                                    <h3 class="title"><a href="" target="_blank">JPOS - Payment simulator</a></h3>
+                                 	<div class="col-md-8 pull-left">
+	                                    <p>
+											<a class="more-link" href="https://github.com/ashutosh049/codespot.git" target="_blank">
+												<i class="fa fa-external-link"></i> https://github.com/ashutosh049/codespot.git
+											</a>
+										</p>
+									</div>
+                                 	<div class="col-md-8 pull-left">
+										<p><a href="http://www.jpos.org/" class="text-primary">jPOS</a> is an open-source, Java, mission-critical enterprise software, based on International Organization for Standardization transaction card originated messages standard (ISO-8583).
+										</p>
+										<p>A jpos 8583 request/response simulator for sending and absorbing payment EMV cards. Implemented using webservices</p>
+									</div>
+									<div class="col-md-4 pull-right">
+										<ul class="tag-list" style="padding: 0;">
+											<li style="list-style:none; float:right;margin-left: 1px;margin-right: 1px;">
+												<span class="label label-default" style="border-radius:20;font-weight: normal;">
+													JPOS
+												</span>
+											</li>
+											<li style="list-style:none; float:right;margin-left: 1px;margin-right: 1px;">
+												<span class="label label-default" style="border-radius:20;font-weight: normal;">
+													ISO 8583
+												</span>
+											</li>
+											<li style="list-style:none; float:right;margin-left: 1px;margin-right: 1px;">
+												<span class="label label-default" style="border-radius:20;font-weight: normal;">
+													EMV Tags
+												</span>
+											</li>
+										</ul>
+									</div>
+								
+								<!-- <div class="text-center m-t-md">
+									<a href="#" class="btn btn-xs btn-primary">Add files</a> <a
+										href="#" class="btn btn-xs btn-primary">Report contact</a>
+
+								</div> -->
+                                </div>                          
                             </div>
+                            
                             <a class="btn btn-cta-primary" href="https://github.com/ashutosh049" target="_blank"><i class="fa fa-github"></i> More on GitHub</a>
                         </div><!--//content-->  
                     </div><!--//section-inner-->                 
                 </section><!--//section-->
-                
-                
-                <!-- <section class="github section">
-                    <div class="section-inner">
+
+				<!--  github feed : Start -->
+				<section class="latest section">
+                    <div class="section-inner" style="background:none;">
+                        <h2 class="heading">
+							<i class="fa fa-folder-open" aria-hidden="true"></i> Personal Projects And Work Samples
+						</h2>
+                        <div class="content">    
+                             <div class="section-inner">
                         <h2 class="heading">My GitHub</h2>
-                        <p>You can embed your GitHub contribution graph calendar using IonicaBizau's <a href="https://github.com/IonicaBizau/github-calendar" target="_blank">GitHub Calendar</a> widget. 
+                        <!-- <p>You can embed your GitHub contribution graph calendar using IonicaBizau's <a href="https://github.com/IonicaBizau/github-calendar" target="_blank">GitHub Calendar</a> widget.  -->
                         
                         <div id="github-graph" class="github-graph">
 
-                        </div>
+                        </div><!--//github-graph-->
 
+                        <!-- <p>You can also embed your GitHub activities using Casey Scarborough's <a href="http://caseyscarborough.com/projects/github-activity/" target="_blank">GitHub Activity Stream</a> widget.         -->
+                        <!--//Usage: http://caseyscarborough.com/projects/github-activity/ -->                       
                         <div id="ghfeed" class="ghfeed">
-                        </div>
+                        </div><!--//ghfeed-->
+                        
                     </div>
-                </section> -->
+                        </div>  
+                    </div>      
+                </section>
+				<!--  github feed : End -->
+
                 
-            </div><!--//primary-->
+            </div>
             <div class="secondary col-md-4 col-sm-12 col-xs-12">
+                  <aside class="info aside section">
+					  
+<!-- <div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="vertical" data-theme="dark" data-vanity="kumar-ashutosh-dubey"><a class="LI-simple-link" href='https://in.linkedin.com/in/kumar-ashutosh-dubey?trk=profile-badge'>Ashutosh Dubey</a></div> -->
+				      
+					  
+					  <!-- <div class="LI-profile-badge"  data-version="v1" data-size="large" data-locale="en_US" data-type="horizontal" data-theme="dark" data-vanity="kumar-ashutosh-dubey"><a class="LI-simple-link" href='https://in.linkedin.com/in/kumar-ashutosh-dubey?trk=profile-badge'>Ashutosh Dubey</a></div> -->
+					  
+					  <div class="LI-profile-badge"  data-version="v1" data-size="large" data-locale="en_US" data-type="horizontal" data-theme="light" data-vanity="kumar-ashutosh-dubey"><a class="LI-simple-link" href='https://in.linkedin.com/in/kumar-ashutosh-dubey?trk=profile-badge'>Ashutosh Dubey</a></div>
+					  
+					  <!-- <div class="LI-profile-badge"  data-version="v1" data-size="large" data-locale="en_US" data-type="horizontal" data-theme="dark" data-vanity="kumar-ashutosh-dubey">
+						  <a class="LI-simple-link" href='https://in.linkedin.com/in/kumar-ashutosh-dubey?trk=profile-badge'>
+							Ashutosh Dubey
+						  </a>
+						 </div> -->
+					  
+					  </aside><!--//aside-->
+					  
+                 <aside class="info aside section">
+                    <div class="section-inner">
+                        <h2 class="heading sr-only">Basic Information</h2>
+                        <div class="content">
+                            <a class="btn-download"
+					href="assets/resume/AshutoshDubeyProfile.pdf"
+					download="kumar's Resume" target="_blank"
+					style="text-transform: none;">
+					<!-- <i class="fa fa-download"></i> -->
+					<i class="fa fa-cloud-download"></i>
+					Download Resume (Short)
+				</a>
+                        </div><!--//content-->  
+                    </div><!--//section-inner-->                 
+                </aside>
+                 
                  <aside class="info aside section">
                     <div class="section-inner">
                         <h2 class="heading sr-only">Basic Information</h2>
                         <div class="content">
                             <ul class="list-unstyled">
-                                <li><i class="fa fa-map-marker"></i><span class="sr-only">Location:</span>Indore, India</li>
-                                <li><i class="fa fa-envelope-o"></i><span class="sr-only">Email:</span><a href="mailto:kumar.ashutosh.dubey@outlook.com" target="_blank">kumar.ashutosh.dubey@outlook.com</a></li>
-								<li><i class="fa fa-skype fa-1"></i> live:kumar_ashutosh019</li>
+								<!-- https://www.google.co.in/maps/place/Crystal+IT+Park/@22.6862865,75.8731127,1086m/data=!3m1!1e3!4m13!1m7!3m6!1s0x3962fcad1b410ddb:0x96ec4da356240f4!2sIndore,+Madhya+Pradesh!3b1!8m2!3d22.7195687!4d75.8577258!3m4!1s0x3962fceeb7de5d2f:0x7f7f37ad7b0a5c31!8m2!3d22.685682!4d75.872211 -->
+                                <li>
+									<a href="https://www.google.co.in/maps/place/Crystal+IT+Park/@22.6862865,75.8731127,1086m/data=!3m1!1e3!4m13!1m7!3m6!1s0x3962fcad1b410ddb:0x96ec4da356240f4!2sIndore,+Madhya+Pradesh!3b1!8m2!3d22.7195687!4d75.8577258!3m4!1s0x3962fceeb7de5d2f:0x7f7f37ad7b0a5c31!8m2!3d22.685682!4d75.872211">
+									<i class="fa fa-map-marker"></i>
+									<span class="sr-only">Location:</span>Indore (M.P.) , India <i class="fa fa-external-link"></i> </a>
+								</li>
+                                <li><i class="fa fa-envelope-o"></i><span class="sr-only">Email:</span><a href="mailto:ashutosh049@outlook.com" target="_blank">ashutosh049@outlook.com</a></li>
+								<li><i class="fa fa-skype fa-1" style="color:#01aef0"></i> live:kumar_ashutosh019</li>
 								<li><i class="fa fa-phone"></i>+91-7509417491</li>
                                 <!-- <li><i class="fa fa-link"></i><span class="sr-only">Website:</span><a href="#">http://www.website.com</a></li> -->
                             </ul>
@@ -260,14 +536,14 @@
                                     </div><!--//level-bar-->                                 
                                 </div><!--//item-->
 								 <div class="item">
-                                    <h3 class="level-title">Spring<span class="level-label">Expert</span></h3>
+                                    <h3 class="level-title">Spring<span class="level-label">Production Grade</span></h3>
                                     <div class="level-bar">
-                                        <div class="level-bar-inner" data-level="75%">
+                                        <div class="level-bar-inner" data-level="10%">
                                         </div>                                      
                                     </div><!--//level-bar-->                                 
                                 </div><!--//item-->
                                  <div class="item">
-                                    <h3 class="level-title" style="text-overflow: ellipsis;">Datastructure<span class="level-label">Expert</span></h3>
+                                    <h3 class="level-title" style="text-overflow: ellipsis;">Data Structure/ Algorithm<span class="level-label">Expert</span></h3>
                                     <div class="level-bar">
                                         <div class="level-bar-inner" data-level="80%">
                                         </div>                                      
@@ -287,8 +563,6 @@
                                         </div>                                      
                                     </div><!--//level-bar-->                                 
                                 </div>
-                                <!-- 
-								<p><a class="more-link" href="#"><i class="fa fa-external-link"></i> More on Coderwall</a></p>  -->
                             </div>              
                         </div><!--//content-->  
                     </div><!--//section-inner-->                 
@@ -299,12 +573,17 @@
                         <h2 class="heading">Education</h2>
                         <div class="content">
                             <div class="item">
-                                <h3 class="title"><i class="fa fa-graduation-cap"></i> BE Computer Science</h3>
-                                <h4 class="university">Oriental College Of Technology, Bhopal <span class="year">(2010-2014)</span></h4>
+                                <h3 class="title"><i class="fa fa-graduation-cap"></i> Bachelor Of Engineering</h3>
+                                <h4 class="university">Oriental College Of Technology, Bhopal 
+								 <br/><span class="year">Computer Science - 6.9 CGPA</span>
+								 <br/><span class="year">(2010-2014)</span>
+								</h4>
                             </div>
 							<div class="item">
                                 <h3 class="title"><i class="fa fa-graduation-cap"></i> Senior School</h3>
-                                <h4 class="university">MKDAV Public School , Daltonganj <span class="year">(2008-2010)</span></h4>
+                                <h4 class="university">MKDAV Public School , Daltonganj 
+									<br/><span class="year">(2008-2010)</span>
+								</h4>
                             </div>
                         </div>
                     </div>
@@ -324,6 +603,23 @@
                                     <span class="level">Native Speaker <br class="visible-xs"/><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </span>
                                 </li><!--//item-->
                             </ul>
+                        </div><!--//content-->
+                    </div><!--//section-inner-->
+                </aside><!--//section-->
+                
+                 <aside class="list music aside section">
+                    <div class="section-inner">
+                        <h2 class="heading">Favourite coding music</h2>
+                        <div class="content">
+                            <ul class="list-unstyled">
+                                <li><i class="fa fa-headphones"></i> <a href="http://open.spotify.com/track/5DoeSaLwSXsEP8UYctJvc1" target="_blank">Kairo Kingdom - One Two</a></li>
+                                <li><i class="fa fa-headphones"></i> <a href="http://open.spotify.com/artist/29QNOhsjKdpqb6I72n9SrE" target="_blank">Aami/Nostalgia/Insomnia - Bad Machine</a></li>
+                                <li><i class="fa fa-headphones"></i> <a href="http://open.spotify.com/track/3AGawd3ZkLbYQlxe4nZIEK" target="_blank">Skrillex - Ease My Mind</a></li>
+                                <li><i class="fa fa-headphones"></i> Mimosa - <a href="http://open.spotify.com/track/3m0p0yJdccX1D52dWlKl5N" target="_blank">Lullabyte</a>, <a href="http://open.spotify.com/track/3BBiaTLrwRlSkozCTFtrsT" target="_blank">Psychedelic Stereo</a>, <a href="http://open.spotify.com/track/6pPTb7N1NmEJum7bWUTK2P" target="_blank">Pandora</a></li>
+                                <li><i class="fa fa-headphones"></i> <a href="http://open.spotify.com/artist/053q0ukIDRgzwTr4vNSwab" target="_blank">Grimes</a></li>
+                                <li><i class="fa fa-headphones"></i> <a href="https://play.spotify.com/track/16sddaknDnZxBEywgprHFE" target="_blank">Malukah - Reignite (Headhunterz remix) </a></li>
+                            </ul>
+                            <p>and more... :)</p>
                         </div><!--//content-->
                     </div><!--//section-inner-->
                 </aside><!--//section-->
@@ -354,11 +650,48 @@
                         </div><!--//content-->
                     </div><!--//section-inner-->
                 </aside><!--//section-->
-              <a class="btn btn-cta-primary btn-download" href="assets/resume/AshutoshDubeyProfile.pdf" download="kumar's Resume" target="_blank" style="text-transform: none;"><i class="fa fa-download"></i> Download Resume (Short)</a>
-            </div><!--//secondary-->    
+
+			</div><!--//secondary-->  
+			
         </div><!--//row-->
-    </div><!--//masonry-->
-    
+		<!-- Accordian -->
+								<!-- <div class="row">
+								<div class="col-md-6">
+								<div class="card tabs-left style-default-light">
+									<ul class="card-head nav nav-tabs" data-toggle="tabs" style="float: left;">
+										<li><a href="#first5">FIRST TAB</a></li>
+										<li class="active"><a href="#second5">NO. TWO</a></li>
+										<li><a href="#third5">THE THIRD</a></li>
+									</ul>
+									<div class="card-body tab-content style-default-bright">
+										<div class="tab-pane" id="first5"><h3 class="text-light">Daniel <strong>Johnson</strong></h3>
+											<p>Ad ius duis dissentiunt, an sit harum primis persecuti, adipisci tacimates mediocrem sit et. Id illud voluptaria omittantur qui, te affert nostro mel. Cu conceptam vituperata temporibus has.</p>
+											<dl class="dl-horizontal">
+												<dt>Description lists</dt>
+												<dd>A description list is perfect for defining terms.</dd>
+												<dt>Euismod</dt>
+												<dd>Vestibulum id ligula porta felis euismod semper eget lacinia odio sem nec elit.</dd>
+												<dd>Donec id elit non mi porta gravida.</dd>
+												<dt>Malesuada porta</dt>
+												<dd>Etiam porta sem malesuada magna mollis euismod.</dd>
+											</dl>
+										</div>
+										<div class="tab-pane active" id="second5">
+											
+											<p class="lead">Ad ius duis dissentiunt, an sit harum primis persecuti, adipisci tacimates mediocrem sit et. Id illud voluptaria omittantur qui, te affert nostro mel. Cu conceptam vituperata temporibus has.</p>
+											<p>Per at postea mediocritatem, vim numquam aliquid eu, in nam sale gubergren. Fuisset delicatissimi duo, qui ut animal noluisse erroribus. Ea eum veniam audire. Dicant vituperata consequuntur.</p>
+										</div>
+										<div class="tab-pane" id="third5"><p>Duo semper accumsan ea, quidam convenire cum cu, oportere maiestatis incorrupte est eu. Soluta audiam timeam ius te, idque gubergren forensibus ad mel, persius urbanitas usu id. Civibus nostrum fabellas mea te, ne pri lucilius iudicabit. Ut cibo semper vituperatoribus vix, cum in error elitr. Vix molestiae intellegat omittantur an, nam cu modo ullum scriptorem.</p>
+											<p>Quod option numquam vel in, et fuisset delicatissimi duo, qui ut animal noluisse erroribus. Ea eum veniam audire. Per at postea mediocritatem, vim numquam aliquid eu, in nam sale gubergren. Dicant vituperata consequuntur at sea, mazim commodo</p>
+										</div>
+									</div>end .card-body
+								</div>end .card
+								<em class="text-caption">Left sidebar layout</em>
+							</div>
+						</div> --><!--end .row -->
+		
+	</div><!--//masonry-->
+    <div data-alerts="alerts" data-titles="{'warning': '<em>Warning!</em>'}" data-ids="myid"></div>
     <!-- ******FOOTER****** --> 
     <footer class="footer">
         <div class="container text-center">
@@ -371,11 +704,26 @@
     <script type="text/javascript" src="assets/plugins/jquery-1.11.3.min.js"></script>
     <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>    
     <script type="text/javascript" src="assets/plugins/jquery-rss/dist/jquery.rss.min.js"></script> 
+    
     <!-- github activity plugin -->
 	<script type="text/javascript" src="assets/plugins/others/mustache.min.js"></script>
     <script type="text/javascript" src="assets/plugins/github-activity/src/github-activity.js"></script>
-    <!-- custom js -->
-    <script type="text/javascript" src="assets/js/main.js"></script>            
+    <!-- <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/mustache.js/0.7.2/mustache.min.js"></script>
+	<script type="text/javascript" src="github-activity-0.1.5.min.js"></script> -->
+    
+    <!-- linkedin badge -->
+	<script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+	<!-- custom js -->
+	
+	<script type="text/javascript">
+	GitHubActivity.feed({
+		username: "ashutosh049",
+		//repository: "your-repo", // optional
+		selector: "#ghfeed",
+		limit: 20 // optional
+	});
+	</script>
+       
 </body>
 </html> 
 
